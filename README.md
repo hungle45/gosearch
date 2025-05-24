@@ -1,6 +1,6 @@
 # Go Package Search CLI
 
-A lightweight command-line tool written in Go for fuzzy searching Go packages from `index.golang.org` and copying their import paths to the clipboard.
+A lightweight command-line tool written in Go for fuzzy searching Go packages from [index.golang.org](https://index.golang.org/) and copying their import paths to the clipboard.
 
 ## Features
 
