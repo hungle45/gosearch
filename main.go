@@ -43,35 +43,35 @@ type model struct {
 // Styles for the UI elements.
 var (
 	inputStyle = lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#007bff"))
+			Foreground(lipgloss.Color("#007bff"))
 
 	itemStyle = lipgloss.NewStyle().
-		PaddingLeft(2).
-		Foreground(lipgloss.Color("#888"))
+			PaddingLeft(2).
+			Foreground(lipgloss.Color("#888"))
 
 	selectedItemStyle = lipgloss.NewStyle().
-		PaddingLeft(2).
-		Foreground(lipgloss.Color("#007bff")).
-		Background(lipgloss.Color("#e0f2ff")).
-		Bold(true)
+				PaddingLeft(2).
+				Foreground(lipgloss.Color("#007bff")).
+				Background(lipgloss.Color("#e0f2ff")).
+				Bold(true)
 
 	statusMessageStyle = lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#007bff")).
-		Padding(0, 1)
+				Foreground(lipgloss.Color("#007bff")).
+				Padding(0, 1)
 
 	errorStyle = lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#ff0000")).
-		Padding(0, 1)
+			Foreground(lipgloss.Color("#ff0000")).
+			Padding(0, 1)
 
 	successMessageStyle = lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#00ff00")).
-		Padding(0, 1).
-		Bold(true)
+				Foreground(lipgloss.Color("#00ff00")).
+				Padding(0, 1).
+				Bold(true)
 
 	// New style for package version
 	versionStyle = lipgloss.NewStyle().
-		Foreground(lipgloss.Color("#a0a0a0")). // Lighter grey color
-		MarginLeft(1) // Small space from the path
+			Foreground(lipgloss.Color("#a0a0a0")). // Lighter grey color
+			MarginLeft(1)                          // Small space from the path
 )
 
 func (m model) Init() tea.Cmd {
